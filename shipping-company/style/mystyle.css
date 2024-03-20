@@ -1,0 +1,253 @@
+@media all and (max-width: 767.999px){
+    .picback{
+        height: 50vh;
+        font-size: 14px;
+    }
+    .font-size-price{
+        font-size: 35px;
+    }
+}
+@media all and (min-width: 768px) {
+    .picback{
+        height: 90vh;
+        font-size: 24px;
+    }
+    .top-md-25{
+        top: 25%;
+    }
+    .font-size-price{
+    font-size: 45px;
+}
+}
+
+:root{
+    --color-pink:#FF3E41;
+    --color-blue:#51CFED;
+    font-size: 12px;
+}
+.bgpink{
+    background: var(--color-pink);
+}
+.bgblue{
+    background: var(--color-blue);
+}
+.btnpink{
+    background: var(--color-pink);
+    color:#fff;
+    border: 1px solid var(--color-pink);
+}
+.btnpink:hover{
+    transition: all 0.5s;
+    color: var(--color-pink);
+    background:#fff;
+    border: 1px solid var(--color-pink);
+}
+.btnblue{
+    background: var(--color-blue);
+    color:#fff;
+    border: 1px solid var(--color-blue);
+}
+.btnblue:hover{
+    transition: all 0.5s;
+    color: var(--color-blue);
+    background:#fff;
+    border: 1px solid var(--color-blue);
+}
+.textpink{
+    color: var(--color-pink);
+}
+.textblue{
+    color: var(--color-blue);
+}
+.fontsizeheader{
+    font-size: 2.5rem;
+}
+.borderpink{
+    border-color: var(--color-pink) !important;
+}
+.picback{
+    background: url("../image/carousel-1.jpg") no-repeat center center;
+    background-size: cover;
+}
+.aboutpic{
+    background: url("../image/about.jpg") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.mc-5{
+    margin: 20vh 0px;
+}
+.servicecard img{
+    transition: all 1s;
+}
+.servicecard:hover img{
+    transition: all 1s;
+    transform: scale(1.1,1.1);
+}
+.servicecard a{
+    overflow: hidden;
+    height: 40px;
+}
+.servicecard span{
+    display: block;
+    left: -100%;
+}
+.servicecard:hover span{
+   left:0px;
+    transition: all 1s;
+}
+.font-size-h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-fluid{
+    width: 100%;
+}
+
+.font-size-price .fontt{
+    font-size: 20px;
+}
+.card-ul{
+    list-style: none;
+    font-size: 16px;
+}
+
+.servicecard a:hover{
+    background-color: hsl(192, 81%, 62%) !important;
+    transition: all .7s;
+    
+}
+.servicecard .bottom-footer-card{
+visibility: hidden;
+  position: absolute;
+
+}
+.servicecard:hover .bottom-footer-card {
+  
+   z-index: 1;
+visibility: inherit;
+ transition: all 1s !important;
+}
+
+.btn-card{
+    height: 30px !important;
+}
+.title-header-price{
+    font-size: 17px;
+}
+.margin-bottom-price{
+
+margin-top: 130px;
+}
+.bg-form{
+    background-color: antiquewhite;
+}
+.servicecard2:hover img{
+    transition: all 1s;
+    transform: scale(1.1,1.1);
+}
+.servicecard2 img{
+    transition: all 1s;
+}
+.servicecard2 span{
+    display: none;
+    }
+    .servicecard2:hover  span{
+  
+        padding-left: 15px;
+        z-index: 1;
+     visibility: inherit;
+     transition: all 1s !important;
+    }
+   
+    .twitter:hover{
+border: 1px solid #fff;
+background-color: #51CFED;
+    }
+   .footer-picback{
+    background: url("../image/map.png")center center no-repeat;
+    background-size: cover;
+   
+    min-height: 50vh;
+   }
+   .btn-social{
+    border-radius: 50%;
+    margin: 0px 5px;
+    padding-block: 10px;
+   }
+   .btn-social:hover{
+    color: #FF3E41;
+   }
+   .footer-title{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 2.2rem;
+   }
+   
+   h6{
+    font-size: 25px;
+   }
+ 
+ 
+select:focus{
+    border: 4px solid #ff3e413d !important;
+    outline-color: #FF3E41 !important;
+    box-shadow: none !important;
+}
+.col-md-6 input:focus{
+    border: 4px solid #ff3e413d !important;
+    outline-color: #FF3E41 !important;
+    box-shadow: none !important;
+}
+textarea:focus{
+    border: 4px solid #ff3e413d !important;
+    outline-color: #FF3E41 !important;
+    box-shadow: none !important;
+}
+
+.bottom-i{
+    position: absolute;
+    top: 0;
+}
+
+.card :hover {
+    transition: all .5s !important;
+}
+
+.btn-link::before {
+        position: relative;
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 10px;
+    }
+
+.fa-arrow-right:before {
+    content: "\f061";
+}
+.servicecard a{
+    overflow: hidden;
+}
+.servicecard span{
+    display: inline-block;
+    padding-left: 15px;
+display: none;
+}
+.servicecard:hover span{
+left: 100px;
+    transition: all .5s;
+    display: inline-flex;
+}
+p{
+    font-size: 16px !important;
+}
+.servicecard2 span{
+    display: inline-block;
+    padding-left: 15px;
+display: none;
+}
+.servicecard2:hover span{
+left: 100px;
+    transition: all .5s;
+    display: inline-flex;
+}

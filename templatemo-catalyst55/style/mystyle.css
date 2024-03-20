@@ -1,0 +1,146 @@
+body{
+   background: url(../images/tm-catalyst-bg.jpg) no-repeat;
+   background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-attachment: fixed;
+}
+.bg-picback{
+     background-color: rgba(0,0,0,0.7);
+    min-height: 50vh;
+     margin-top: 15vh;
+}
+h1{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+.bg-picback2{
+    background-color: rgba(255,255,255, 0.9);
+    min-height: 50vh;
+    margin-top: 15vh;
+}
+.dark-blue-text {
+    color: #006699;
+}
+.tm-btn-primary {
+    background-color: #cc3467;
+    color: white;
+}
+.tm-btn-primary:hover {
+    background-color: #cc3467;
+    color: white;
+}
+.btn {
+    border-radius: 0px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 15px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.tm-gray-border-tl {
+    border-top: 15px solid #666666;
+    border-left: 15px solid #666666;
+}
+.tm-border-box {
+    display: inline-block;
+}
+.tm-gray-border-br {
+    border-right: 15px solid #666666;
+    border-bottom: 15px solid #666666;
+}
+.tm-border-box {
+    display: inline-block;
+}
+.tm-pink-border-tr {
+    border-top: 15px solid #cc3467;
+    border-right: 15px solid #cc3467;
+}
+.tm-border-box {
+    display: inline-block;
+    
+}
+.tm-pink-border-bl {
+    border-bottom: 15px solid #cc3467;
+    border-left: 15px solid #cc3467;
+}
+.tm-border-box {
+    display: inline-block;
+    
+}
+.ps7{
+     padding-left: 80px !important;
+} 
+.tm-float-section-header {
+    padding-top: 30px;
+    height: 200px;
+}
+@media screen and (max-width: 991px){
+.tm-float-section-header, .tm-float-section-body {
+    position: static;
+ }   
+    .tm-fa-icon{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tm-float-section-body{
+    left: 25px;
+top: 0;
+
+}
+
+
+}
+.tm-float-section-header {
+    position: absolute;
+    background-color: #cc3467;
+    width: 75%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    z-index: 0;
+}
+.tm-float-section-body{
+    z-index: 1;
+    position:relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+  text-align: center;
+ 
+   
+}
+@media screen and (min-width: 992px){
+    .tm-float-section-body{
+         left: 150%;
+    top: 0;
+   
+    }
+}
+.tm-margin{
+margin-top:100px;
+}
+.form-control {
+    box-shadow: none !important;
+    font-size: 19px;
+  
+    padding: 13px 17px;
+
+}
+.form-control:focus{
+    border:4px solid #cc3467;
+    fill-rule: unset;
+}
+.tm-float-section-body p{
+    font-size: 17px ;
+
+    line-height: 1.8;
+
+}
